@@ -31,3 +31,5 @@ EXPOSE 8089
 
 # Run the Spring Boot application
 ENTRYPOINT ["java", "-jar", "/app/springboot-docker-ec2-0.0.1-SNAPSHOT.jar"]
+
+
