@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/api")
 public class ApplicationController {
-    @GetMapping("/hello")
+    @GetMapping("/test")
     public String hello() {
-        return "Hello, World!";
+        return "VK Application Process!";
     }
 }
 
